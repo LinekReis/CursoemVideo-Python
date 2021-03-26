@@ -1,0 +1,8 @@
+vlr=input("Tipe a value:")
+print("---------------------")
+print("Class type: ",type(vlr))
+print("Is upper ?",vlr.isupper())
+print("Is lower ?",vlr.islower())
+print("Is alpha numeric ?",vlr.isalnum())
+print("Is alpha ?",vlr.isalpha())
+print("---------------------")
