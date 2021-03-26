@@ -1,6 +1,0 @@
-vlr=input('Digite um valor: ')
-print(type(vlr))
-print(vlr.isupper())
-print(vlr.islower())
-print(vlr.isalnum())
-print(vlr.isalpha())
