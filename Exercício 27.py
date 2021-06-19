@@ -1,0 +1,5 @@
+nome = str(input("Write you full name: ")).strip()
+siz = nome.split()
+print("Such a pleasure {} ".format(nome))
+print("Your first name is: {}".format(siz[0]))
+print("And your last name is: {}".format(siz[len(siz)-1]))
