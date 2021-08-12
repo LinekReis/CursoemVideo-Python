@@ -1,3 +1,5 @@
+from os import system, name
+
 print("-"*26)
 print("Highest and lowest weights")
 print("-"*26)
@@ -7,6 +9,9 @@ lowest = 0
 
 for i in range (0,5):
     weight = int(input("Tipe the weight: "))
+    def clear():
+        if name =='nt':
+          _= system('clear')
     if i == 1:  
         highest = weight
         lowest = weight
