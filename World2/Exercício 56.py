@@ -24,5 +24,6 @@ for i in range(0, 4):
 
     if select == 2 and age < 20:
         womancount += 1
+print("The average of the ages is {}".format(agesum/4))
 print("The name of the oldest man is: {}\nAnd was registered {} girls younger than 20".format(
     oldestname, womancount))
