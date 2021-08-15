@@ -14,7 +14,7 @@ for i in range(0, 4):
 
     print("Sex Selection")
     print("[1] Man\n[2] Woman\n")
-    select = int(input("Choose the person sex"))
+    select = int(input("Choose the person sex: "))
 
     while select != 1 and select != 2:
         select = int(input("Choose the person sex: "))
