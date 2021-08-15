@@ -15,12 +15,12 @@ for i in range(0, 4):
     if age > oldestage:
         oldestage = age
 
-    print("Sex Selection")
+    print("Genre Selection")
     print("[1] Man\n[2] Woman\n")
-    select = int(input("Choose the person sex: "))
+    select = int(input("Choose the person genre: "))
 
     while select != 1 and select != 2:
-        select = int(input("Choose the person sex: "))
+        select = int(input("Choose the person genre: "))
 
     if age >= oldestage and select == 1:
         oldestname = name
