@@ -1,4 +1,4 @@
-//first option 
+#first option 
 number = int(input("Tipe a value to calcule the factorial: "))
 count = number
 
