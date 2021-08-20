@@ -1,0 +1,29 @@
+#option 1
+print("Working with Numbers")
+print("-"*20)
+
+number = 0
+total = 0
+count = 0
+
+while number != 999:
+    number=int(input("Tipe a number: "))
+    total += number
+    count += 1 
+    if number == 999:
+        total -= 999
+        count -= 1
+print("Sum of the numbers: {}\nQuantity of numbers tiped: {}".format(total,count))
+
+#option 2
+print("Working with Numbers")
+print("-"*20)
+
+number = count = total = 0
+number=int(input("Tipe a number: "))
+
+while number != 999:
+    total += number
+    count += 1 
+    number=int(input("Tipe a number: "))
+print("Sum of the numbers: {}\nQuantity of numbers tiped: {}".format(total,count))
