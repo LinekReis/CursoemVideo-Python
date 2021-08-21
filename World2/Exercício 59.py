@@ -18,9 +18,9 @@ while option != 5:
     elif option == 3:
         
         if first > second:
-            print("The greatest is {}".format(first))
+            print("The highest is {}".format(first))
         else:
-            print("The greatest is {}".format(second))
+            print("The highest is {}".format(second))
             
     elif option == 4:
         first = int(input("Tipe the first number: "))
