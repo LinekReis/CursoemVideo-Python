@@ -10,7 +10,7 @@ while resp != 'NO':
     lowest = number
 
     number = int(input("Tipe a value: "))
-    if number > greatest:
+    if number > highest:
         highest = number
     elif number < lowest:
         lowest = number
@@ -23,4 +23,4 @@ while resp != 'NO':
 
 average = summ/count.__trunc__()
 print("Lowest number: {}\nHighest number : {}\nAverage: {}".format(
-    lowest, greatest, average))
+    lowest, highest, average))
