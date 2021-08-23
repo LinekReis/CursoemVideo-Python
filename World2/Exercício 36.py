@@ -1,4 +1,4 @@
-house = float(input("Tap the value of the house: "))
+house = float(input("Type the value of the house: "))
 month = int(input("How many installments ? "))
 salary = float(input("Value of your salary: "))
 
