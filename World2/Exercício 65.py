@@ -9,7 +9,7 @@ while resp != 'NO':
     highest = number
     lowest = number
 
-    number = int(input("Tipe a value: "))
+    number = int(input("Type a value: "))
     if number > highest:
         highest = number
     elif number < lowest:
