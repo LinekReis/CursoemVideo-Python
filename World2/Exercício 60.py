@@ -1,6 +1,6 @@
 #first option 
 
-number = int(input("Tipe a value to calcule the factorial: "))
+number = int(input("Type a value to calcule the factorial: "))
 count = number
 position = count
 
@@ -14,6 +14,6 @@ print("The factorial of {} is: {}".format(position,number)
       
 from math import factorial
 
-number = int(input("Tipe a value to calcule the factorial: "))
+number = int(input("Type a value to calcule the factorial: "))
 result = factorial(number)
 print("The factorial of {} is: {}".format(number,result)    
