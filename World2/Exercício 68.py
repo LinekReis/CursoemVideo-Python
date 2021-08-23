@@ -6,12 +6,12 @@ while True:
     os.system('cls' if os.name == 'nt' else 'clear')
     print("Odds or Evens")
     print("-"*13)
-    number = int(input("Tipe a value: "))
+    number = int(input("Type a value: "))
     computer = random.randint(0,10)
     oddeven = str(input("Odds or Evens [O/E]: ")).upper()
     
     while oddeven != 'O' and oddeven != 'E':
-        print("Please tipe 'O' to Odds or 'E' to Evens")
+        print("Please type 'O' to Odds or 'E' to Evens")
         oddeven = str(input("Odds or Evens [O/E]: ")).upper()
     summ = computer + number
     
