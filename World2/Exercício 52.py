@@ -1,4 +1,4 @@
-value = int(input("Tape a value: "))
+value = int(input("Type a value: "))
 count = 0
 
 for a in range(1, value+1):
