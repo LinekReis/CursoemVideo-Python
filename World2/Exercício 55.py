@@ -8,7 +8,7 @@ highest = 0
 lowest = 0
 
 for i in range (0,5):
-    weight = int(input("Tipe the weight: "))
+    weight = int(input("Type the weight: "))
     def clear():
         if name =='nt':
           _= system('clear')
