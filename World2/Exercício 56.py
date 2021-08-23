@@ -5,8 +5,8 @@ womancount = 0
 
 for i in range(0, 4):
 
-    name = str(input("Tipe the name of the person: "))
-    age = int(input("Tipe the age of the person: "))
+    name = str(input("Type the name of the person: "))
+    age = int(input("Type the age of the person: "))
 
     oldestage = age
 
