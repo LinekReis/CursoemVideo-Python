@@ -19,3 +19,6 @@ while True:
     resp = str(input("You want to continue ? ")).upper()
     if resp == 'NO':
         break
+print(f"Number of person with age higher than 18: {agecount}")     
+print(f"Quantity of men's: {mancount}")
+print(f"women's with less than 20: {womancount}")
