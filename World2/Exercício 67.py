@@ -3,7 +3,7 @@ print("Times Table V3.0")
 print("-"*16)
 
 while True:
-    print("Tipe any negative value to end the program")
+    print("Type any negative value to end the program")
     number = int(input("Wich number do you want to know the times table: "))
     os.system('cls' if os.name == 'nt' else 'clear')
     if number < 0:
