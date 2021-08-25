@@ -6,9 +6,9 @@ while True:
     amount += value 
     if value > 1000:
      	higher1000 += 1
-	if value < cheap:
-     	cheap = value
-	 	cheapname = product
+    if value < cheap:
+	cheap = value
+	cheapname = product
     print("Press any button to continue\nOr type 'No' to end the program") 
     resp = str(input("Do you want to continue ? ")).upper()
     if resp == 'NO':
